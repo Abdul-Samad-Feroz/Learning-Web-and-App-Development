@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 5</title>
+    <link rel="shortcut icon" href="./Favicon.jfif" type="image/x-icon" />
+  </head>
+  <body>
+    <center><h1>Form 1</h1></center>
+    <hr />
+    <br />
+    <fieldset style="border-color: rgb(101, 101, 255)" width="100%">
+      <legend>The First Section</legend>
+      <br />
+      <fieldset style="border-color: rgb(101, 101, 255)">
+        <legend>The First Subsection</legend>
+        <p>field 1 <input type="text" /></p>
+      </fieldset>
+      <p>field 1 <input type="text" /></p>
+    </fieldset>
+    <br />
+    <fieldset style="border-color: rgb(101, 101, 255)" width="100%">
+      <legend>Section II</legend>
+      <br />
+      <fieldset style="border-color: rgb(101, 101, 255)">
+        <legend>Section II-A</legend>
+        <p>field 1 <input type="text" /></p>
+      </fieldset>
+      <br />
+      <fieldset style="border-color: rgb(101, 101, 255)">
+        <legend>Section II-B</legend>
+        <p>field 1 <input type="text" /></p>
+      </fieldset>
+      <br />
+    </fieldset>
+    <br />
+    <input type="button" value="Go! Go! Go!" style="border-radius: 50px" />
+    <br />
+    <br />
+    <hr />
+    <center><h1>Form 2</h1></center>
+    <hr />
+    <br />
+    <form>
+      <fieldset>
+        <legend>Login details</legend>
+        <label for="name">
+          <p>Name: <input type="text" id="name" /></p>
+        </label>
+        <label for="email">
+          <p>Email: <input type="text" id="email" /></p>
+        </label>
+        <label for="password">
+          <p>Password: <input type="text" id="password" /></p>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Your feedback</legend>
+        <p>Please check all emotionsthat apply to you:</p>
+        <label for="angry">
+          <p>Angry <input type="checkbox" id="angry" /></p>
+        </label>
+        <label for="sad">
+          <p>Sad <input type="checkbox" id="sad" /></p>
+        </label>
+        <label for="happy">
+          <p>Happy <input type="checkbox" id="happy" /></p>
+        </label>
+        <label for="ambivalent">
+          <p>Ambivalent <input type="checkbox" id="ambivalent" /></p>
+        </label>
+        <p>How satisfied were youwith our service?</p>
+        <label for="very-satisfied">
+          <p>
+            Very Satisfied
+            <input type="radio" name="satisfaction" id="very-satisfied" />
+          </p>
+        </label>
+        <label for="unsatisfied">
+          <p>
+            Unsatisfied
+            <input type="radio" name="satisfaction" id="unsatisfied" />
+          </p>
+        </label>
+      </fieldset>
+    </form>
+    <br />
+    <br />
+    <hr />
+    <center><h1>Form 3</h1></center>
+    <hr />
+    <br />
+    <form>
+      <fieldset style="width: 23%">
+        <legend>Login</legend>
+        <label for="u">
+          <p>
+            Username* <br />
+            <input type="text" id="u" />
+          </p>
+        </label>
+        <label for="p">
+          <p>
+            Password* <br />
+            <input type="text" id="u" />
+          </p>
+        </label>
+      </fieldset>
+      <fieldset style="width: 23%">
+        <legend>Gender*</legend>
+        <p>
+          <label for="m"
+            ><input type="radio" id="m" name="gender" /> Male
+          </label>
+          <label for="f"
+            ><input type="radio" id="f" name="gender" />Female
+          </label>
+        </p>
+      </fieldset>
+      <fieldset style="width: 23%">
+        <legend>Programming Skill</legend>
+        <p>
+          <label for="j">
+            <input type="checkbox" name="skill" id="j" /> Java
+          </label>
+          <label for="c">
+            <input type="checkbox" name="skill" id="c" checked/> C++
+          </label>
+          <label for="sharp">
+            <input type="checkbox" name="skill" id="sharp" /> C#
+          </label>
+        </p>
+      </fieldset>
+      <fieldset style="width: 23%">
+        <legend>Fruit</legend>
+        <p>
+          Choose a fruit: <select name="fruit" id="f">
+            <option value="banana" selected>Banana</option>
+            <option value="apple">Apple</option>
+            <option value="mango">Mango</option>
+          </select>
+        </p>
+      </fieldset>
+    </form>
+    <textarea name="" id="" placeholder="Enter your comments here" style="width: 23%; height: 70px;"></textarea>
+  </body>
+</html>
