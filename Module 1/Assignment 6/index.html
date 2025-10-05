@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 6</title>
+    <link rel="shortcut icon" href="Favicon.jfif" type="image/x-icon" />
+  </head>
+  <body>
+    <center><h1>Form 1</h1></center>
+    <hr />
+
+    <form
+      style="
+        background-color: rgb(104, 4, 198);
+        color: white;
+        border: 2.5px solid blue;
+        border-radius: 3.5px;
+      "
+    >
+      <center><h2>Personal Information Form</h2></center>
+      <hr />
+      <p>
+        <label for="f">
+          FIRST NAME
+          <input
+            type="text"
+            id="f"
+            placeholder="First name"
+            style="margin-left: 53px"
+            required
+          />
+        </label>
+        (max 30 characters a-z and A-Z)
+      </p>
+      <p>
+        <label for="l">
+          LAST NAME
+          <input
+            type="text"
+            id="l"
+            placeholder="Last name"
+            style="margin-left: 55px"
+            required
+          />
+        </label>
+        (max 30 characters a-z and A-Z)
+      </p>
+      <p>
+        DATE OF BIRTH <input type="date" style="margin-left: 30px" required />
+      </p>
+      <p>
+        <label for="em">
+          EMAIL ID
+          <input
+            type="email"
+            id="em"
+            placeholder="Email "
+            style="margin-left: 73px"
+            required
+          />
+        </label>
+      </p>
+      <p>
+        <label for="n">
+          MOBILE NUMBER
+          <input
+            type="number"
+            id="n"
+            placeholder="Mobile number"
+            maxlength="10"
+            style="margin-left: 10px"
+            required
+          />
+        </label>
+        (10 digit number)
+      </p>
+      <p>
+        GENDER
+        <label for="male" style="margin-left: 80px"
+          >Male
+          <input type="radio" name="gender" id="male" />
+        </label>
+        <label for="female"
+          >Female
+          <input type="radio" name="gender" id="female" />
+        </label>
+      </p>
+      <p>
+        <label for="adress">
+          ADDRESS
+          <textarea
+            id="adress"
+            placeholder="Enter your address"
+            style="margin-left: 69px; width: 210px; height: 55px"
+          ></textarea>
+        </label>
+      </p>
+      <p>
+        <label for="c">
+          CITY
+          <input
+            type="text"
+            id="c"
+            placeholder="Enter your city"
+            style="margin-left: 106px"
+            required
+          />
+        </label>
+        (max 30 characters a-z and A-Z)
+      </p>
+      <p>
+        <label for="pin">
+          PIN CODE
+          <input
+            type="password"
+            id="pin"
+            maxlength="6"
+            placeholder="Enter a pin code"
+            style="margin-left: 68px"
+            required
+          />
+        </label>
+        (6 digit number)
+      </p>
+      <p>
+        <label for="country">
+          COUNTRY
+          <input
+            type="text"
+            id="country"
+            placeholder="Pakistan"
+            style="margin-left: 65px"
+            required
+          />
+        </label>
+      </p>
+      <p>
+        HOBBIES
+        <label for="drawing" style="margin-left: 72px">
+          Drawing <input type="checkbox" id="drawing" />
+        </label>
+        <label for="singing">
+          Singing <input type="checkbox" id="singing" />
+        </label>
+        <label for="dancing">
+          Dancing <input type="checkbox" id="dancing" />
+        </label>
+        <label for="sketching">
+          Sketching <input type="checkbox" id="sketching" />
+        </label>
+      </p>
+      <p>
+        COURSES <br />
+        APPLIED FOR
+        <label for="bca" style="margin-left: 40px">
+          BCA <input type="radio" name="courses" id="bca"
+        /></label>
+        <label for="bcom">
+          B.Com <input type="radio" name="courses" id="bcom"
+        /></label>
+        <label for="bsc">
+          B.Sc <input type="radio" name="courses" id="bsc"
+        /></label>
+        <label for="ba">
+          B.A <input type="radio" name="courses" id="ba"
+        /></label>
+      </p>
+      <center>
+        <button type="submit">Submit</button><button type="reset">Reset</button>
+      </center>
+      <br />
+    </form>
+  </body>
+</html>
