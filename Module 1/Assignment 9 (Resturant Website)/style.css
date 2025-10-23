@@ -65,6 +65,10 @@ body {
   color: #000000;
 }
 
+#menu {
+  scroll-margin-top: 160px;
+}
+
 .w-text {
   padding: 0 15px;
   font-size: 18px;
@@ -77,7 +81,7 @@ body {
 button {
   background-color: #ffffff;
   color: #25956d;
-  border-color: #25956d;
+  border: solid 2px #25956d;
   padding: 12px 30px;
   font-size: 17px;
   font-family: Open Sans, Arial, sans-serif;
