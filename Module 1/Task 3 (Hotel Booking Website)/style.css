@@ -48,7 +48,7 @@ body {
   margin-left: 320px;
 }
 
-.btn {
+.btnn {
   background-color: #a87215;
   width: 150px;
   height: 50px;
@@ -56,7 +56,7 @@ body {
   margin-left: 23px;
 }
 
-.btn a {
+.btnn a {
   color: white;
   text-decoration: none;
   vertical-align: -2px;
@@ -148,4 +148,93 @@ nav {
   text-decoration: underline 2px #ab720f;
   text-underline-offset: 8px;
   text-transform: capitalize;
+}
+
+.booking-form {
+  position: absolute;
+  top: 270px;
+  left: 970px;
+  height: 605px;
+  width: 360px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(33, 37, 41);
+  border-radius: 4px;
+  background-repeat: repeat;
+}
+
+.booking-form h3 {
+  text-align: center;
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 29px;
+}
+
+.booking-form label {
+  font-family: "Cabin", serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #707079;
+  display: block;
+}
+
+.date-check , .date-checkk {
+  margin-left: 53px;
+}
+
+.date-input {
+  width: 230px;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 2px;
+  padding-left: 10px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.date-inputt {
+  width: 242px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 2px;
+  padding-left: 10px;
+  margin-top: 10px;
+  position: relative;
+}
+
+
+.date-check i {
+  position: absolute;
+  top: 134px;
+  left: 258px;
+}
+
+#out {
+  margin-top: 20px;
+}
+
+.date-checkk i {
+  position: absolute;
+  top: 224px;
+  left: 258px;
+}
+
+.btn {
+  margin-top: 35px;
+ margin-left: 54px;
+ appearance: button;
+ background-color: rgba(0, 0, 0, 0);
+ background-image: none;
+ border: 1px solid rgb(223, 169, 116);
+ border-radius: 2px;
+color: rgb(223, 169, 116);
+cursor: pointer;
+font-family: "Cabin", serif;
+font-size: 14px;
+font-weight: 500;
+height: 46px;
+text-align: center;
+text-transform: uppercase;
+width: 242px;
 }
