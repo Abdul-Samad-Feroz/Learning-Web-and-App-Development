@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "MyFont", sans-serif;
+}
+@font-face {
+  font-family: "MyFont";
+  src: url("CorpoS\ Regular.ttf") format("truetype");
+}
+.navtop {
+  width: 100%;
+  height: 72px;
+  background-color: #07141c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.left {
+  display: flex;
+  color: #ffffff;
+  font-size: 12px;
+  margin-left: 25px;
+}
+
+.speacial {
+  color: #9f9f9f;
+  font-size: 12px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.hrr {
+  margin-top: 13px;
+  margin-left: 11px;
+  display: flex;
+  margin-right: 12px;
+  width: 1px;
+  height: 11px;
+  background-color: #9f9f9f;
+}
+
+.logo img {
+  height: 38px;
+  margin-right: 75px;
+  cursor: pointer;
+}
+
+.right {
+  display: flex;
+  color: #ffffff;
+  font-size: 12px;
+  margin-right: 40px;
+}
+
+.two {
+  margin-left: 30px;
+}
+
+.speacial:hover {
+  color: #ffffff;
+}
+.twoo {
+  margin-right: 45px;
+}
+
+nav {
+  width: 100%;
+  height: 64px;
+  background-color: rgba(7, 20, 28, 0.98);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 999; 
+  backdrop-filter: blur(4px);
+}
+
+.navlinks {
+  display: flex;
+  gap: 78px;
+  list-style: none;
+}
+
+.navlinks a {
+  font-size: 17px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 22px;
+  transition: color 0.8s ease;
+}
+
+.navlinks:hover a {
+  color: #9f9f9f;
+}
+
+.navlinks a:hover {
+  color: #ffffff;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 90vh; 
+  overflow: hidden;
+  margin-top: 72px;
+  padding: 0;
+}
+
+#bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  pointer-events: none;
+}
