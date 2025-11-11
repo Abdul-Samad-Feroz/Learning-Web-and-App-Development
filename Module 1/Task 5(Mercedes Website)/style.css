@@ -80,11 +80,24 @@ nav {
   z-index: 999; 
   backdrop-filter: blur(4px);
 }
-
+@keyframes custom-fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+}
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .navlinks {
   display: flex;
   gap: 78px;
   list-style: none;
+  animation-name: custom-fade-up;
+  animation-duration: 1.2s; 
+  animation-timing-function: ease-out; 
+  animation-fill-mode: forwards; 
 }
 
 .navlinks a {
@@ -122,4 +135,16 @@ nav {
   object-fit: cover;
   z-index: 1;
   pointer-events: none;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  font-size: 48px;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  top: 185px;
+  left: 115px;
+  font-weight: 300;
+  font-family: 'Times New Roman', Times, serif;
 }
