@@ -173,7 +173,7 @@ nav {
   text-decoration: none;
   color: rgb(0, 0, 0);
   font-size: 16px;
-    transition-behavior: normal, normal;
+  transition-behavior: normal, normal;
   transition-delay: 0s, 0s;
   transition-duration: 0.5s, 0.25s;
   transition-property: background-color, color;
