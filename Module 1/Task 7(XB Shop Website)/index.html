@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XB Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Images/6581038.png" type="image/x-icon">
+</head>
+<body>
+    <div class="product-container">
+        <nav class="navbar">
+             <a href="#" class="logo">XB <span>Shop</span></a>
+             <ul class="navlist">
+                <li>
+                    <a href="#" class="links">Products</a>
+                </li>
+                    <li>
+                    <a href="#" class="links">Category</a>
+                </li>
+                    <li>
+                    <a href="#" class="links">Trending</a>
+                </li>
+                    <li>
+                    <a href="#" class="links">Popular</a>
+                </li>
+             </ul>
+             <button>Sign Up</button>
+
+             <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+             </div>
+        </nav>
+
+        <section class="hero-section">
+         <div class="content">
+            <h1>Keep Up With The Era</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum molestiae tempora iusto totam optio!</p>
+            <button>Shop Now</button>
+         </div>
+         <div class="iamge-container">
+            <img src="./Images/game controller.png" alt="">
+         </div>
+        </section>
+    </div>
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const list = document.querySelector('.navlist');
+
+        hamburger.addEventListener('click', ()=>{
+            list.classList.toggle('navlist-active');
+        });
+    </script>
+</body>
+</html>
