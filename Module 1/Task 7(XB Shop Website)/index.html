@@ -1,68 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>XB Shop</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="Images/xbox-logo-icon-free-vector.jpg" type="image/x-icon">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="Images/xbox-logo-icon-free-vector.jpg"
+      type="image/x-icon"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
     <div class="product-container">
-        <nav class="navbar">
-             <a href="#" class="logo" data-aos="zoom-in-down"  data-aos-duration="1000">XB <span>Shop</span></a>
-             <ul class="navlist" data-aos="fade-down" data-aos-duration="1000">
-                <li>
-                    <a href="#" class="links">Products</a>
-                </li>
-                    <li>
-                    <a href="#" class="links">Category</a>
-                </li>
-                    <li>
-                    <a href="#" class="links">Trending</a>
-                </li>
-                    <li>
-                    <a href="#" class="links">Popular</a>
-                </li>
-             </ul>
-             <button data-aos="zoom-in-down"  data-aos-duration="1000">Sign Up</button>
+      <nav class="navbar">
+        <a
+          href="#"
+          class="logo"
+          data-aos="zoom-in-down"
+          data-aos-duration="1000"
+          >XB <span>Shop</span></a
+        >
+        <ul class="navlist" data-aos="fade-down" data-aos-duration="1000">
+          <li>
+            <a href="#" class="links">Products</a>
+          </li>
+          <li>
+            <a href="#" class="links">Category</a>
+          </li>
+          <li>
+            <a href="#" class="links">Trending</a>
+          </li>
+          <li>
+            <a href="#" class="links">Popular</a>
+          </li>
+        </ul>
+        <button data-aos="zoom-in-down" data-aos-duration="1000">
+          Sign Up
+        </button>
 
-             <div class="hamburger">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-             </div>
-        </nav>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
 
-        <section class="hero-section">
-         <div class="content" data-aos="zoom-in-right"  data-aos-duration="1000">
-            <h1>Keep Up With The Era</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum molestiae tempora iusto totam optio!</p>
-            <button data-aos="zoom-in-up"  data-aos-duration="1000">Shop Now</button>
-         </div>
-         <div class="iamge-container">
-            <img src="./Images/game controller.png" alt="">
-         </div>
-        </section>
+      <section class="hero-section">
+        <div class="content" data-aos="zoom-in-right" data-aos-duration="1000">
+          <h1>Keep Up With The Era</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
+            molestiae tempora iusto totam optio!
+          </p>
+          <button data-aos="zoom-in-up" data-aos-duration="1000">
+            Shop Now
+          </button>
+        </div>
+        <div class="iamge-container">
+          <img src="./Images/game controller.png" alt="" />
+        </div>
+      </section>
     </div>
     <script>
-        const hamburger = document.querySelector('.hamburger');
-        const list = document.querySelector('.navlist');
+      const hamburger = document.querySelector(".hamburger");
+      const list = document.querySelector(".navlist");
 
-        hamburger.addEventListener('click', ()=>{
-            list.classList.toggle('navlist-active');
-        });
+      hamburger.addEventListener("click", () => {
+        list.classList.toggle("navlist-active");
+      });
     </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       if (window.innerWidth < 768) {
-    AOS.init({
-      disable: true
-    });
-  } else {
-    AOS.init();
-  }
-</script>
-</body>
+        AOS.init({
+          disable: true,
+        });
+      } else {
+        AOS.init();
+      }
+    </script>
+  </body>
 </html>
