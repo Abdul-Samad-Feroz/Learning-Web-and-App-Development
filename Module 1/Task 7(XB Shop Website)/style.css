@@ -91,7 +91,11 @@ li {
 }
 
 button {
-  background: linear-gradient(    45deg,    var(--primary-purple),    var(--secondary-purple)  );
+  background: linear-gradient(
+    45deg,
+    var(--primary-purple),
+    var(--secondary-purple)
+  );
   border: none;
   color: var(--white-clr);
   padding: 0.8rem 2rem;
@@ -99,7 +103,6 @@ button {
   font-size: 1rem;
   cursor: pointer;
   transition: 0.8s ease-in-out;
-  transition: transform 0.5s ease-in;
   -webkit-transition: 0.8s ease-in-out;
   -moz-transition: 0.8s ease-in-out;
   -ms-transition: 0.8s ease-in-out;
@@ -113,9 +116,7 @@ button:hover {
     var(--primary-purple)
   );
   box-shadow: 0 0 5px var(--secondary-purple);
-  transform: translateY(-2.5px);
 }
-
 .content {
   max-width: 550px;
 }
@@ -162,6 +163,10 @@ button:hover {
 }
 
 @media screen and (max-width: 768px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
   .navlist {
     flex-direction: column;
     justify-content: center;
@@ -174,10 +179,10 @@ button:hover {
     width: 17rem;
     z-index: 5;
     transform: translateX(-100%);
-    transition: transform 0.5s ease-in-out;
   }
   .navlist-active {
     transform: translateX(0%);
+    transition: transform 0.5s ease-in-out;
   }
   .logo {
     z-index: 6;
@@ -193,6 +198,7 @@ button:hover {
   }
   .product-container {
     padding-inline: 2rem;
+    height: 130vh;
   }
   .hero-section {
     flex-direction: column;
@@ -204,7 +210,8 @@ button:hover {
     margin-top: 3rem;
   }
   .iamge-container {
-    width: 25rem;
+    width: 20rem;
+    margin-top: 2rem;
   }
   .iamge-container::after {
     width: 12rem;
@@ -220,5 +227,12 @@ button:hover {
   }
   to {
     opacity: 1;
+  }
+}
+@media (max-width: 768px) {
+  [data-aos] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
   }
 }
