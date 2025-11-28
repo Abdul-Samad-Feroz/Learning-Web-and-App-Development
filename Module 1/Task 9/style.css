@@ -1,0 +1,51 @@
+html {
+    margin-top: 90px;
+}
+
+.container {
+  display: grid;
+  width: 800px;
+  margin: auto;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 150px 130px 130px 150px;
+}
+
+.items {
+  background: lightgray;
+}
+
+.box1 {
+  grid-row: 1 / 4;
+  background-color: green;
+}
+
+.box2 {
+  background-color: green;
+  grid-column: 2 / 4;
+}
+
+.box3 {
+  background-color: red;
+}
+
+.box4 {
+  background-color: yellow;
+}
+
+.box5 {
+  background-color: red;
+}
+
+.box6 {
+  background-color: green;
+  grid-row: 2 / 4;
+  grid-column: 4 / 4;
+}
+
+.box7 {
+  background-color: red;
+}
+.box8 {
+  background-color: yellow;
+}
