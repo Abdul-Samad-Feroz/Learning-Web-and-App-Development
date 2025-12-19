@@ -33,7 +33,7 @@ h3 {
   font-weight: 600;
   font-size: 28px;
   color: #111;
-  letter-spacing: 0.9px;
+  letter-spacing: 0.8px;
   font-family: "poppins", sans-serif;
   text-align: center;
 }
@@ -61,8 +61,8 @@ h3 {
   cursor: pointer;
 }
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px) !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
 }
 .badge {
   position: absolute;
