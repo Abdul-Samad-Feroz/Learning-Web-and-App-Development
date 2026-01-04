@@ -16,10 +16,15 @@
 
 // console.log(petsarray.slice(2));
 
-var tableNumber = prompt("Enter a Table Number");
-var startingNumber = prompt("Enter starting Number");
-var endingNumber = prompt("Enter Ending Number");
+// var tableNumber = prompt("Enter a Table Number");
+// var startingNumber = prompt("Enter starting Number");
+// var endingNumber = prompt("Enter Ending Number");
 
-for (var i = startingNumber; i <= endingNumber; i++) {
-  document.write(`<p>${tableNumber} * ${i} = ${tableNumber * i}</p>`);
-}
+// for (var i = startingNumber; i <= endingNumber; i++) {
+//   document.write(`<p>${tableNumber} * ${i} = ${tableNumber * i}</p>`);
+// }
+
+// var userInput = prompt("Enter Input")
+
+// console.log(userInput[0].toUpperCase() + userInput.slice(1));
+
