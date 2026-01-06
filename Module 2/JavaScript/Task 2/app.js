@@ -13,3 +13,16 @@ if (userInput < 0) {
 } else {
   console.log("Invalid Input");
 }
+
+var numberInput = prompt("Enter a Number");
+if (numberInput === null) {
+  console.log("Error: No input provided");
+} else if (isNaN(numberInput)) {
+  console.log("Error: Please enter a valid number");
+} else {
+  let number = Number(numberInput);
+  if (number % 2 === 0) console.log(`${number} is Even`);
+  else {
+    console.log(`${number} is Odd`);
+  }
+}
