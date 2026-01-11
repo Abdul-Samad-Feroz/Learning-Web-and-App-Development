@@ -26,3 +26,17 @@ if (numberInput === null) {
     console.log(`${number} is Odd`);
   }
 }
+
+var username = "admin";
+var password = "12345";
+
+var input1 = prompt("Enter Your Username");
+var input2 = prompt("Enter your Password");
+
+if (input1 == username && input2 == password) {
+  alert("Login Successful");
+} else if (input1 == "" || input2 == "") {
+  alert("Please enter all details");
+} else {
+  alert("Incorrect Credentials");
+}
