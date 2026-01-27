@@ -28,3 +28,20 @@
 
 // console.log(userInput[0].toUpperCase() + userInput.slice(1));
 
+// var text = ("My name is html")
+// var textFind = ("html")
+// var textReplace = ("abdul samad")
+
+// var randomNumber = Math.random();
+
+// var convert = Math.round(randomNumber);
+
+// if (convert < 1) {
+//   console.log("Head");
+// } else {
+//   console.log("Tail");
+// }
+
+var randomNumber = Math.random() * (201) + 500;
+
+console.log(Math.round(randomNumber));
