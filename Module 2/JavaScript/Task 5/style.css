@@ -8,12 +8,14 @@ body {
   background-color: #f3f4f6;
 }
 
-.login {
+.login,
+.signup {
   width: 370px;
   height: 95%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: absolute;
   align-items: center;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.05);
@@ -89,7 +91,6 @@ button {
   height: 45px;
   font-size: 16px;
   cursor: pointer;
-  transition: 0.2s ease;
 }
 
 .new-btn:hover {
