@@ -62,7 +62,8 @@ button {
   justify-content: center;
 }
 
-.login-btn {
+.login-btn,
+.signup-btn {
   margin-top: 20px;
   font-weight: 500;
   background-color: #1877f2;
@@ -77,6 +78,9 @@ button {
 }
 
 .login-btn:hover {
+  background-color: #155db2;
+}
+.signup-btn:hover {
   background-color: #155db2;
 }
 
