@@ -1,3 +1,7 @@
+body{
+   background-color: rgb(220, 242, 239);
+}
+
 .child {
   background-color: aliceblue;
   border: 2px solid blue;
