@@ -133,20 +133,38 @@ All major assignments and selected projects are organized and presented through 
 
 ## 📂 Repository Structure
 
-The repository is organized around different areas of my web development learning:
-
 ```text
 Learning-Web-Development/
 │
-├── HTML/
-├── CSS/
-├── Bootstrap/
-├── JavaScript/
-├── Projects/
+├── Certificates/
+│   └── Course and achievement certificates
+│
+├── Images/
+│   └── Images and visual assets used across assignments
+│
+├── Module 1/
+│   ├── HTML/
+│   │   └── HTML assignments and practice
+│   │
+│   └── CSS/
+│       └── CSS assignments and practice
+│
+├── Module 2/
+│   └── JavaScript/
+│       └── JavaScript assignments and practice
+│
+├── Favicon.png
+├── index.html
+├── style.css
+│
+├── SMIT ID Card.pdf
+├── SMIT ID Card (AI).pdf
+│
 └── README.md
 ```
 
-> The structure may evolve as more assignments and projects are added.
+The repository is organized by learning modules, with **HTML and CSS under Module 1** and **JavaScript under Module 2**. It also includes certificates, shared assets, and the live assignments showcase.
+
 
 ---
 
