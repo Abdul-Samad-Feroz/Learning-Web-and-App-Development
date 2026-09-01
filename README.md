@@ -1,198 +1,177 @@
-<h1 align='center'>Web & Mobile App Development</h1>
+# 🌐 Learning Web Development
 
-<!-- <p align="center"><img src="https://skillicons.dev/icons?i=html,css,js,ts,git" /><img src="https://skillicons.dev/icons?i=react,mui,tailwind,nextjs,nodejs" /><img src="https://skillicons.dev/icons?i=express,mongodb,graphql,postgresql,nestjs" /><p/> -->
+A collection of my **web development assignments, practice exercises, and projects** created throughout my learning journey.
 
-## Module 1: Web Designing
+This repository documents my progress from learning the fundamentals of web development to building complete and responsive websites using **HTML, CSS, Bootstrap, and JavaScript**.
 
-<p align="center"><img src="https://skillicons.dev/icons?i=html,css,github,netlify,bootstrap" /><p/>
+🔗 **Assignments Showcase:** https://smit-assignments-nine.vercel.app
 
-|                |                     |
-| -------------- | ------------------- |
-| Pre-requisites | Matriculation       |
-| Duration       | 2 Months - 48 Hours |
-| Quizzes        | 1. HTML5            |
-|                | 2. CSS3             |
-| Hackathon      | After completion    |
+---
 
-### Topics
+## 📚 What You'll Find
 
-- HTML 5 [(Book)](https://github.com/ghousahmed/Books/blob/master/Wiley.HTML.and.CSS.Oct.2011.pdf)
-- CSS 3 [(Book)](https://github.com/ghousahmed/Books/blob/master/Wiley.HTML.and.CSS.Oct.2011.pdf)
-  | | Additional CSS Topics | Resource |
-  | --- | ----- | -------- |
-  | 1. | CSS Variables |[W3schools](https://www.w3schools.com/css/css3_variables.asp)|
-  |2. |CSS Animation Library|[Animate.style](https://animate.style/)|
-  |3.|Media queries|[CSS-Tricks](https://css-tricks.com/a-complete-guide-to-css-media-queries/)|
-  |4.|Flexbox|[CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)|
-  |5.|Icons |[FontAwesome](https://fontawesome.com/icons) or [Google Icons](https://fonts.google.com/icons)|
-  |6. |Google Fonts|[Google Fonts](https://getbootstrap.com/)|
-- [Bootstrap](https://getbootstrap.com/)
-- [Netlify Hosting](https://app.netlify.com/drop)
-- Git & Github Basics
-  - [Github Desktop](https://desktop.github.com/)
-- Domain & Hosting Subscription (Deployment)
-  - [Namecheap](https://www.namecheap.com/)
+This repository contains my coursework, practice work, experiments, and projects covering different areas of frontend web development.
 
-## Module 2: Front-End Development
+### 🟠 HTML
 
-<p align="center"><img src="https://skillicons.dev/icons?i=js,ts,git,firebase" /><p/>
+* HTML fundamentals
+* Semantic HTML
+* Headings, paragraphs, lists, and links
+* Tables
+* Forms and input elements
+* Images and multimedia
+* Multi-page website structures
 
-|               |                           |
-| ------------- | ------------------------- |
-| Pre-requisite | Module 1                  |
-| Duration      | 4 Months – 96 Hours       |
-| Quizzes       | 1. JS1 (Chapter 1 to 20)  |
-|               | 2. JS2 (Chapter 21 to 40) |
-|               | 3. JS3 (Chapter 41 to 60) |
-|               | 4. JS4 (Chapter 61 to 89) |
-|               | 5. TypeScript             |
-|               | 6. Git                    |
-| Hackathon     | After completion          |
+### 🔵 CSS & Bootstrap
 
-### Topics
+* CSS fundamentals
+* Selectors and properties
+* Box model
+* Flexbox
+* Responsive layouts
+* Custom styling
+* Bootstrap grid system
+* Bootstrap components
+* Responsive navigation
+* Landing page designs
 
-- JavaScript
-  - [Book](https://github.com/ghousahmed/Books/blob/master/ASmarterWaytoLearnJavaScript.pdf)
-  - [Assignments](https://github.com/ghousahmed/javascript-exercises)
-- Advanced Javascript (All ES Versions)
+### 🟡 JavaScript
 
-  - Variable Scoping
-  - Closure
-  - Template literals
-  - Destructuring
-  - Default parameters
-  - Rest parameter
-  - Spread Operator
-  - Arrow functions
-  - Enhanced object literals
-  - Iterators & For..of
-  - Generators
-  - Modules
-  - Map
-  - Array methods
-  - Higher-order function
-  - CallBack
-  - Promises
-  - Exponentiation Operator
-  - Ternary Operator
-  - Optional chaining
+* Variables and data types
+* Operators
+* Conditional statements
+* Loops
+* Functions
+* Arrays
+* Objects
+* Array methods
+* DOM manipulation
+* Events and event listeners
+* Timers
+* APIs
+* Practical JavaScript exercises
 
-- Object-oriented programming (OOPs)
+---
 
-  - Classes
-    - Easy to understand Resources ( [Class 1](https://youtu.be/k3vRSkh8-qM) | [Class 2](https://youtu.be/4HfHJJtJLRE) | [Class 3](https://www.facebook.com/share/v/4poMFRMR8hBysxn5) )
-  - Object and Instance
-  - Overview of following
-    - Abstraction
-    - Inheritance
-    - Polymorphism
-    - Data Abstraction and Encapsulation
-  - OOP in Typescript (Optional)
-    - TypeScript introduces static typing and additional features that enhances OOP like public/protected/private access modifiers etc.
+## 🚀 Featured Projects
 
-- TypeScript
+Some of the projects developed during this learning journey include:
 
-  - TS Compiler
-  - Type Annotations
-  - Interfaces
-  - Generics
-  - Enums
-  - Type Inference
-  - Union and Intersection Types
-  - Type Guards
-  - Decorators
+### 🎮 XB Shop
 
-- Advance Github
+An Xbox-inspired shop landing page focused on clean UI, responsive layout, and product presentation.
 
-  - Branches
-  - PR
-  - PR review
-  - Merge
-  - Rebase
-  - Cherry Pick
+### 🍽️ ASF Restaurant
 
-- Firebase
-  - Authentication
-    - Email
-    - Phone
-    - Google
-  - Firestore
-  - Storage
-- PWA (Progressive Web Applications)
-  - [Builder](https://www.pwabuilder.com/)
+A responsive restaurant website developed using **HTML, CSS, and Bootstrap**, featuring a multi-page layout.
 
-## Module 3: Modern Front-End Development
+### 🎓 Students Record Manager
 
-<p align="center"><img src="https://skillicons.dev/icons?i=react,redux,next,mui,tailwind" /><p/>
+An interactive student record management project built with **HTML, CSS, and Vanilla JavaScript**, featuring record editing, updating, and deletion.
 
-|               |                          |
-| ------------- | ------------------------ |
-| Prerequisites | Module 1, 2              |
-| Duration      | 3 Months – 72 Hours      |
-| Quizzes       | 1. ReactJS               |
-|               | 2. NextJS + React Native |
-| Hackathon     | After completion         |
+### 🎮 Game Dev Portfolio
 
-### Topics
+A gaming-focused portfolio website created as part of my frontend development practice.
 
-- ReactJS ( [CRA](https://create-react-app.dev/), [Vite](https://vitejs.dev/) )
+---
 
-  - React Icons
-  - React Router DOM
-  - Context API or Redux Tool kit
-  - [TanStack Query](https://tanstack.com/query/v3/)
-  - [Ahooks](https://ahooks.js.org/)
+## 🛠️ Technologies & Tools
 
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Material UI](https://mui.com/)
-- [AntD](https://ant.design/)
-- NextJS (App Router)
+**Frontend**
 
-  - Folder Based Routing
-  - Server and Client Components
-  - Theory of Dynamic Routes and Dynamic vs Static Pages
-  - What is CSR, SSR, SSG, ISR and AMP
+* HTML5
+* CSS3
+* Bootstrap
+* JavaScript
 
-- Firebase (Connection)
-- React Native (Android)
+**Development Tools**
 
-## Module 4: Back-End App Development
+* Visual Studio Code
+* Git
+* GitHub
 
-<p align="center"><img src="https://skillicons.dev/icons?i=nodejs,express,mongo,nestjs" /><img src="https://skillicons.dev/icons?i=postgresql,graphql,sequelize" /><p/>
+**Deployment**
 
-|               |                       |
-| ------------- | --------------------- |
-| Prerequisites | Module 2              |
-| Duration      | 3 Months – 72 Hours   |
-| Quizzes       | 1. NodeJS + ExpressJS |
-|               | 2. MongoDB            |
-|               | 3. PostgreSQL         |
-| Hackathon     | After completion      |
+* Vercel
+* Netlify
 
-### Topics
+---
 
-- NodeJS
-  - ExpressJS
-    - Basic Routes
-    - Database Connection
-    - CRUD
-    - Authentication
-    - Middleware
-    - Protected Routes
-  - [File System module](https://nodejs.org/api/fs.html)
-  - NestJS
-- MongoDB
-  - CRUD
-  - Queries
-- JWT
-- WebSocket
-- Bcrypt
-- Cloudinary
-- GraphQL
-- PostgreSQL
-  - CRUD
-  - Queries
-- Sequelize
-- Payment Integration
-  - Stripe
-  - Paypal
+## 🎯 Learning Goals
+
+The purpose of this repository is to document my progression as I learn and practice web development.
+
+Through these assignments and projects, I have been working on:
+
+* Building responsive websites
+* Improving frontend development fundamentals
+* Creating clean and structured user interfaces
+* Practicing JavaScript logic and DOM manipulation
+* Turning concepts into practical projects
+* Learning Git and GitHub workflows
+* Developing better problem-solving skills
+
+---
+
+## 📈 My Progress
+
+This repository represents an ongoing learning journey.
+
+I started with the fundamentals of **HTML and CSS**, progressed into **Bootstrap and responsive design**, and then moved into **JavaScript and interactive web development**.
+
+As I continue learning, new assignments, experiments, and projects will be added to this repository.
+
+---
+
+## 🌐 Assignments Showcase
+
+All major assignments and selected projects are organized and presented through the live assignments showcase:
+
+**https://smit-assignments-nine.vercel.app**
+
+---
+
+## 📂 Repository Structure
+
+The repository is organized around different areas of my web development learning:
+
+```text
+Learning-Web-Development/
+│
+├── HTML/
+├── CSS/
+├── Bootstrap/
+├── JavaScript/
+├── Projects/
+└── README.md
+```
+
+> The structure may evolve as more assignments and projects are added.
+
+---
+
+## 📌 Project Status
+
+**Ongoing**
+
+This repository will continue to grow as I learn new concepts, complete assignments, and build more practical projects.
+
+---
+
+## 👨‍💻 About Me
+
+I'm **Abdul Samad Feroz**, a Computer Science student and aspiring software developer currently building my skills through practical projects and continuous learning.
+
+My current focus includes **frontend development, Python, C, and Artificial Intelligence & Data Science**.
+
+---
+
+## 🔗 Connect With Me
+
+* **GitHub:** https://github.com/Abdul-Samad-Feroz
+* **Portfolio:** https://abdulsamads-portfolio.vercel.app
+* **Behance:** https://www.behance.net/abdul-samad-feroz
+
+---
+
+⭐ **This repository is a record of my progress — from learning the basics to building real projects.**
